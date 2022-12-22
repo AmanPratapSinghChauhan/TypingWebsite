@@ -1,14 +1,19 @@
 
 
-
 var y='';
+var str5='in order to add something interesting, and adding an interesting fact in your content does not necessarily follow the conventional paragraph structure, it’s more about scene building and continuing a story. properly-written paragraphs are a staple of suitable flash fiction and short fiction writing, as short testimonies need to target a principal concept. when your sentences are unified and connected with other sentences, you can write a good paragraph.';
+var str4='supporting sentences explain the topic sentence in detail. they expand the main topic and develops the main idea into the explanation. they explain the main topic using examples, facts, quotes, etc. they have to be related to the topic sentence. there can be two types of supporting sentences, first, the major supporting sentence; this sentence directly explains the main idea with some new fact or new idea. second, a minor support sentence helps the major supporting sentence develop the controlling idea. ';
 const a=[];
+var str3='a topic sentence is a precise statement that reflects the main idea of the paragraph. it should be carefully written as it will show the reader what you are going to talk about. words chosen for this should not be cluttered and ambiguous as readers will decide to read further based on this. it is not necessary to write the topic sentence at the beginning of the paragraph. it can be put anywhere, as long as it reflects the main topic. for instance, if you mention that you are going to talk about the advantages of using the hand sanitizer, then in supporting sentence you should only talk about advantages, not the features or anything else.'
 var str1='lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
    const c=[];
    var str2='time is money life a journey travelled on the highway of time. therefore, time is precious. every moment in life should be properly utilized, as time, once lost, can never be recovered. and there is no way to stop should be properly utilized, as time, once lost, can never be recovered. and there is no way to stop the hands of time from ticking. hence right from childhood, one should learn to appreciate the value of time. just as one should learn to make the best use of money, should learn to make the best use of time, too. it has been rightly said, time and tide wait for none. people who realize the value of time, believe in action rather than procrastination. they use it to acquire knowledge and various useful skills.'
-   var num=Math.floor(Math.random()*2);
+   var num=Math.floor(Math.random()*5);
    a[0]=str1;
    a[1]=str2;
+   a[2]=str3;
+   a[3]=str4;
+   a[4]=str5;
    console.log(num);
    // document.getElementById('para').innerHTML=a[num];
    var l=0;
@@ -68,7 +73,7 @@ var lf=0;
       // document.getElementById('para').style.color='green';
      document.getElementById('speed').innerHTML=sum+'words/min';
      document.getElementById('int').style.color='green';
-     document.getElementsByTagName('span'+lf++)[0].style.color='#4a148c';
+     document.getElementsByTagName('span'+lf++)[0].style.color='#f57f17';
       y='';
     }
     else{
